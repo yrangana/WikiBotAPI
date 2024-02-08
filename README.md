@@ -2,7 +2,9 @@
 
 # WikiBotAPI
 WikiBotAPI is an application programming interface used to interact with Wikipedia articles. The API provides a command line interface to search for articles and retrieve the content from articles based on the search query.
+
 The API also provides a RESTful web service.
+
 The WikiBotAPI is containerized using Docker and tested on AWS App Runner.
 
 ## Clone the repository
