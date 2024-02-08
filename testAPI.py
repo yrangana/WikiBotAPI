@@ -9,6 +9,6 @@ data = {
     "sentences": 2
 }
 
-response = requests.post(url, json=data)
+response = requests.post(url, json=data,timeout=20)
 
 print(json.dumps(response.json(), indent=2))
