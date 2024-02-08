@@ -1,4 +1,5 @@
+import fire
 from scrapebot.bot import get_wikipedia_summary
 
 if __name__ == "__main__":
-    print(get_wikipedia_summary("Facebook (socialmedia)", 2))
+    fire.Fire(get_wikipedia_summary)
