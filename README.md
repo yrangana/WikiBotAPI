@@ -59,6 +59,10 @@ curl -X 'POST' \
 }'
 ```
 
+## API Documentation
+
+The FastAPI documentation can be found at http://0.0.0.0:8081/docs
+
 ## License
 [MIT](https://github.com/yrangana/WikiBotAPI/blob/main/LICENSE)
 
